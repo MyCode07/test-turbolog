@@ -6,9 +6,10 @@
 @@include('./html/header.html')
 
 <main>
-    <section class="hero">
-        <div class="hero__container _container">
-            <div class="hero__body">
+
+    <section class="section pages-hero">
+        <div class="section__container _container">
+            <div class="section__body">
                 <div class="breadcrumbs">
                     <ul>
                         <li>
@@ -24,8 +25,14 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="hero__flex">
+    <section class="section single-page">
+        <div class="section__container _container">
+            <div class="section__body">
+                <div class="section__flex">
                     <div class="catalog-sidebar">
                         <div class="catalog-sidebar__menu">
                             <div class="catalog-sidebar__title">
@@ -34,88 +41,76 @@
                             <nav>
                                 <ul>
                                     <li>
-                                        <label for="interaktivye">
+                                        <label for="interaktivyeibp">
+                                            <input id="interaktivyeibp" name="zxc" type="checkbox" value="zxc">
                                             <span class="value">Интерактивные ИБП</span>
-                                            <input id="interaktivye" name="ipb" type="checkbox"
-                                                value="Интерактивные ИБП">
-                                            <span class="checkbox"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="smart">
+                                        <label for="smartibp">
+                                            <input id="smartibp" name="" type="checkbox" value="">
                                             <span class="value">SMART и онлайн ИБП</span>
-                                            <input id="smart" name="smart" type="checkbox" value="SMART и онлайн ИБП">
-                                            <span class="checkbox"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="trehfaz">
-                                            <span class="value">Трехфазные системы</span>
-                                            <input id="trehfaz" name="trehfaz" type="checkbox"
+                                        <label for="trehfazsystyem">
+                                            <input id="trehfazsystyem" name="" type="checkbox"
                                                 value="Трехфазные системы">
-                                            <span class="checkbox"></span>
+                                            <span class="value">Трехфазные системы</span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="raspredelenie">
-                                            <span class="value">Распределители питания</span>
-                                            <input id="raspredelenie" name="raspredelenie" type="checkbox"
+                                        <label for="raspredeleniepitaniya">
+                                            <input id="raspredeleniepitaniya" name="raspredelenie" type="checkbox"
                                                 value="Распределители питания">
-                                            <span class="checkbox"></span>
+                                            <span class="value">Распределители питания</span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="monitoring-upravlenie">
+                                        <label for="monitoring-uprav">
+                                            <input id="monitoring-uprav" name="monitoring-upravlenie" type="checkbox"
+                                                value="Мониторинг и управление">
                                             <span class="value">Мониторинг и управление</span>
-                                            <input id="monitoring-upravlenie" name="monitoring-upravlenie"
-                                                type="checkbox" value="Мониторинг и управление">
-                                            <span class="checkbox"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="ibp-dlya-sistem-otoplenie">
-                                            <span class="value">ИБП для систем отопления</span>
-                                            <input id="ibp-dlya-sistem-otoplenie" name="ibp-dlya-sistem-otoplenie"
+                                        <label for="ibp-dlya-sistem-otoplenie-ibp">
+                                            <input id="ibp-dlya-sistem-otoplenie-ibp" name="ibp-dlya-sistem-otoplenie"
                                                 type="checkbox" value="ИБП для систем отопления">
-                                            <span class="checkbox"></span>
+                                            <span class="value">ИБП для систем отопления</span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="setevye-filtry">
-                                            <span class="value">Сетевые фильтры</span>
-                                            <input id="setevye-filtry" name="setevye-filtry" type="checkbox"
+                                        <label for="set-filtry">
+                                            <input id="set-filtry" name="setevye-filtry" type="checkbox"
                                                 value="Сетевые фильтры">
-                                            <span class="checkbox"></span>
+                                            <span class="value">Сетевые фильтры</span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="stab-napr">
-                                            <span class="value">Стабилизатор напряжения</span>
-                                            <input id="stab-napr" name="stab-napr" type="checkbox"
+                                        <label for="stab-nap">
+                                            <input id="stab-nap" name="stab-nap" type="checkbox"
                                                 value="Стабилизатор напряжения">
-                                            <span class="checkbox"></span>
+                                            <span class="value">Стабилизатор напряжения</span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="batarei">
+                                        <label for="batare">
+                                            <input id="batare" name="batarei" type="checkbox" value="Батареи">
                                             <span class="value">Батареи</span>
-                                            <input id="batarei" name="batarei" type="checkbox" value="Батареи">
-                                            <span class="checkbox"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="prog-obespechenie">
-                                            <span class="value">Программное обеспечение</span>
-                                            <input id="prog-obespechenie" name="prog-obespechenie" type="checkbox"
+                                        <label for="prog-obes">
+                                            <input id="prog-obes" name="prog-obespechenie" type="checkbox"
                                                 value="Программное обеспечение">
-                                            <span class="checkbox"></span>
+                                            <span class="value">Программное обеспечение</span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="tehnologii">
+                                        <label for="tehnologi">
+                                            <input id="tehnologi" name="tehnologii" type="checkbox" value="Технологии">
                                             <span class="value">Технологии</span>
-                                            <input id="tehnologii" name="tehnologii" type="checkbox" value="Технологии">
-                                            <span class="checkbox"></span>
                                         </label>
                                     </li>
                                 </ul>
@@ -128,42 +123,37 @@
                             <nav>
                                 <ul>
                                     <li>
-                                        <label for="monitoring-upravlenie-2">
+                                        <label for="monitoring-uprav-2">
+                                            <input id="monitoring-uprav-2" name="monitoring-upravlenie" type="checkbox"
+                                                value="Мониторинг и управление">
                                             <span class="value">Мониторинг и управление</span>
-                                            <input id="monitoring-upravlenie-2" name="monitoring-upravlenie"
-                                                type="checkbox" value="Мониторинг и управление">
-                                            <span class="checkbox"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="ibp-dlya-sistem-otoplenie-2">
-                                            <span class="value">ИБП для систем отопления</span>
-                                            <input id="ibp-dlya-sistem-otoplenie-2" name="ibp-dlya-sistem-otoplenie"
+                                        <label for="ibp-dlya-sistem-otop">
+                                            <input id="ibp-dlya-sistem-otop" name="ibp-dlya-sistem-otoplenie"
                                                 type="checkbox" value="ИБП для систем отопления">
-                                            <span class="checkbox"></span>
+                                            <span class="value">ИБП для систем отопления</span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="setevye-filtry-2">
-                                            <span class="value">Сетевые фильтры</span>
-                                            <input id="setevye-filtry-2" name="setevye-filtry" type="checkbox"
+                                        <label for="setevye-fil">
+                                            <input id="setevye-fil" name="setevye-filtry" type="checkbox"
                                                 value="Сетевые фильтры">
-                                            <span class="checkbox"></span>
+                                            <span class="value">Сетевые фильтры</span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="stab-napr-2">
-                                            <span class="value">Стабилизатор напряжения</span>
-                                            <input id="stab-napr-2" name="stab-napr" type="checkbox"
+                                        <label for="stab-na">
+                                            <input id="stab-na" name="stab-napr" type="checkbox"
                                                 value="Стабилизатор напряжения">
-                                            <span class="checkbox"></span>
+                                            <span class="value">Стабилизатор напряжения</span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label for="batarei-2">
+                                        <label for="bat">
+                                            <input id="bat" name="batarei" type="checkbox" value="Батареи">
                                             <span class="value">Батареи</span>
-                                            <input id="batarei-2" name="batarei" type="checkbox" value="Батареи">
-                                            <span class="checkbox"></span>
                                         </label>
                                     </li>
                                 </ul>
@@ -171,89 +161,112 @@
                         </div>
                     </div>
                     <div class="catalog-content">
-                        <h1>ИБП CyberPower BU600E</h1>
-                        <div class="catalog-content__flex">
-                            <div class="catalog-content__slider">
-                                <div class="catalog-content__slider-main">
-                                    <button class="prev">
-                                        <svg width="6" height="11">
-                                            <use xlink:href="img/svg/icons.svg#slider-controll"></use>
-                                        </svg>
-                                    </button>
-                                    <div class="swiper"></div>
-                                    <button class="next">
-                                        <svg width="6" height="11">
-                                            <use xlink:href="img/svg/icons.svg#slider-controll"></use>
-                                        </svg>
-                                    </button>
-                                </div>
-                                <div thumbsslider="">
-                                </div>
+                        <div class="catalog-content__body">
+                            <div class="filter__button">
+                                <label>Каталог</label>
+                                <button><img src="img/filter.svg" alt=""><span>Фильтр</span> </button>
                             </div>
-                            <div class="catalog-content__descr">
-                                <span class="article">Артикул: <label>3434е3о</label> </span>
-                                <ol>
-                                    <li>Watts<span>360</span></li>
-                                    <li>Выходное напряжение ( В перем. )<span>230 ± 10%</span></li>
-                                    <li>Время работы при 90Вт ( мин )<span>18</span></li>
-                                    <li>Выходные разъемы Schuko x<span>3</span></li>
-                                </ol>
-                                <div class="info-box">
-                                    <div class="price__box">
-                                        <span class="price__bo-price">23 000 р.</span>
-                                        <div>
-                                            <span cclass="price__bo-sale">-20%</span>
-                                            <span class="price__bo-oldprice">23 000 р.</span>
+                            <h1>ИБП CyberPower BU600E</h1>
+                            <div class="catalog-content__flex">
+                                <div class="catalog-content__slider">
+                                    <div class="catalog-content__slider-main">
+                                        <div class="slider-info">
+                                            <span class="hit">Хит</span>
+                                            <span class="new">Новинка</span>
+                                        </div>
+                                        <div class="swiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <img src="img/slider-1.png" />
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <img src="img/slider-2.png" />
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <img src="img/slider-3.png" />
+                                                </div>
+
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="quantity">
-                                        <input class="quantity-input" type="number" name="qty" value="1" min="1"
-                                            max="10" step="1">
-                                        <button class="quantity-button minus">
-                                            <span></span>
+                                    <div thumbsSlider class="swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="img/slider-1.png" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="img/slider-2.png" />
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="img/slider-3.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog-content__descr">
+                                    <span class="article">Артикул: <label>3434е3о</label> </span>
+                                    <ol>
+                                        <li>Watts <span>360</span></li>
+                                        <li>Выходное напряжение ( В перем. ) <span>230 ± 10%</span></li>
+                                        <li>Время работы при 90Вт ( мин ) <span>18</span></li>
+                                        <li>Выходные разъемы Schuko x <span>3</span></li>
+                                    </ol>
+                                    <div class="info-box">
+                                        <div class="price__box">
+                                            <span class="price__box-price">23 000 р.</span>
+                                            <div>
+                                                <span class="price__box-sale">-20%</span>
+                                                <span class="price__box-oldprice">23 000 р.</span>
+                                            </div>
+                                        </div>
+                                        <div class="quantity">
+                                            <button class="quantity-button minus">
+                                                <span></span>
+                                            </button>
+                                            <input class="quantity-input" type="number" name="qty" value="1" min="1"
+                                                max="10" step="1">
+                                            <span class="quantity-text">1</span>
+                                            <button class="quantity-button plus">
+                                                <span></span><span></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="actions">
+                                        <button class="add-to-cart">
+                                            В корзину
                                         </button>
-                                        <span class="quantity-text">3</span>
-                                        <button class="quantity-button plus">
-                                            <span></span><span></span>
+                                        <button class="quick-order">
+                                            Быстрый заказ
                                         </button>
                                     </div>
                                 </div>
-                                <div class="actions">
-                                    <button class="add-to-cart">
-                                        В корзину
-                                    </button>
-                                    <button class="quick-order">
-                                        Быстрый заказ
-                                    </button>
+                            </div>
+                        </div>
+                        <div class="catalog-content__info" data-tabs-area="">
+                            <div class="catalog-content__tabs" data-tabs="">
+                                <button class="_active" data-tab="0">Характеристики</button>
+                                <button data-tab="1">Документация</button>
+                            </div>
+                            <div class="catalog-content__tabs-content">
+                                <div class="tab-content _active" data-tab-content="0">
+                                    <ol>
+                                        <li><span>Производитель</span><span> CyberPower</span></li>
+                                        <li><span>Страна производства</span><span> Тайвань</span></li>
+                                        <li><span>Мощность выход</span><span> 340 W</span></li>
+                                        <li><span>Напряжение вход/выход</span><span> 220 V</span></li>
+                                        <li><span> Количество фаз вход/выход</span><span> 3</span></li>
+                                    </ol>
+                                </div>
+                                <div class="tab-content" data-tab-content="1">
+                                    <ol>
+                                        <li><a href="files/меню.pdf" download><img src="img/pdf.svg"
+                                                    alt="">Документ.pdf</a>
+                                        </li>
+                                        <li><a href="" target="_blank" download><img src="img/pdf.svg" alt="">Документ2.
+                                                docx</a></li>
+                                    </ol>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="catalog-content__info" data-tabs-area="">
-                    <div class="catalog-content__tabs" data-tabs="">
-                        <button class="_active" data-tab="0">Характеристики</button>
-                        <button data-tab="1">Документация</button>
-                    </div>
-                    <div class="catalog-content__tabs-content">
-                        <div class="tab-content _active" data-tab-content="0">
-                            <div>
-                                <ol>
-                                    <li><span>Производитель</span><span> CyberPower</span></li>
-                                    <li><span>Страна производства</span><span> Тайвань</span></li>
-                                    <li><span>Мощность выход</span><span> 340 W</span></li>
-                                    <li><span>Напряжение вход/выход</span><span> 220 V</span></li>
-                                    <li><span> Количество фаз вход/выход</span><span> 3</span></li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="tab-content" data-tab-content="1">
-                            <ol>
-                                <li><a href="files/меню.pdf" download><img src="img/pdf.svg" alt="">Документ.pdf</a>
-                                </li>
-                                <li><a href="" target="_blank" download><img src="img/pdf.svg" alt="">Документ2.
-                                        docx</a></li>
-                            </ol>
                         </div>
                     </div>
                 </div>
@@ -261,6 +274,30 @@
         </div>
     </section>
 
+    <section class="section newsletter" data-replace-width="1024">
+        <img src="img/newsletter-bgi.png" alt="">
+        <div class="section__container _container">
+            <div class="section__body">
+                <h2>Полезная рассылка</h2>
+                <form class="form">
+                    <div class="form__body" data-replace-old-position="afterend">
+                        <div class="form__input" data-replace-new-position="afterend">
+                            <span>Почта</span>
+                            <input class="email-input" type="text" placeholder="E-mail....">
+                            <label class="error-text">Неверно заполнено поле</label>
+                        </div>
+                        <button class="form__button" type="submit">Отправить</button>
+                    </div>
+                    <label for="confirmation" data-replace-element>
+                        <input id="confirmation" name="confirmation" type="checkbox" value="confirmation">
+                        <span class="checkbox"></span>
+                        <p>Подтверждаю свое согласие на обработку своих персональных данных
+                            в соответствии с <a href="">Политикой конфиденциальности</a> </p>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </section>
 
 </main>
 

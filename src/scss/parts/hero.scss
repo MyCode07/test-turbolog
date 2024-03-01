@@ -1,0 +1,5 @@
+.pages-hero {
+    @include adaptive-value("padding-top", 37, 16, 1);
+    @include adaptive-value('margin-bottom', 30, 7, 1);
+    
+}
